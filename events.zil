@@ -600,6 +600,10 @@ noon."
 by the preceding constants, which, for a given character,
 is the P?CHARACTER property of the object."
 
+"NOTE: I-LINDER and I-CAT are undeclared. It appears that they were
+originally interpreted as nulls in the goal tables. It seems appropriate
+to explicitly replace them with nulls now."
+
 <GLOBAL GOAL-TABLES
 	<TABLE <TABLE <> <> <> <> 1 <> <> I-FOLLOW 4 4>
 	       <TABLE <> <> <> <> 1 <> <> I-PHONG 3 3>
