@@ -27,7 +27,7 @@ Copyright (C) 1983 Infocom, Inc.  All rights reserved."
 	 <PUT <SET CINT <INT .RTN>> ,C-TICK .TICK>
 	 .CINT>
 
-<ROUTINE INT (RTN "OPTIONAL" (DEMON <>) E C INT)
+<ROUTINE INT (RTN "OPTIONAL" (DEMON <>) "AUX" E C INT)
 	 #DECL ((RTN) ATOM (DEMON) <OR ATOM FALSE> (E C INT) <PRIMTYPE
 							      VECTOR>)
 	 <SET E <REST ,C-TABLE ,C-TABLELEN>>
