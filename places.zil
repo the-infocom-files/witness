@@ -243,7 +243,7 @@ attached.">)>
 	<TELL "(You can't see any " "bathroom" " here!)" CR>
 	,NOT-HERE-OBJECT)>>
 
-<ROUTINE NULL-F ("OPTIONAL" A1 A2)
+<ROUTINE NULL-F ()
 	<RFALSE>>
 
 <ROUTINE DDESC (STR1 DOOR STR2)
@@ -325,8 +325,8 @@ attached.">)>
 <ROUTINE PHONE-IN? (RM)
 	<EQUAL? .RM ,LIVING-ROOM ,OFFICE ,MONICA-ROOM>>
 
-<ROUTINE WINDOW-ROOM (RM WINDOW "AUX" (P 0) L)
-	 #DECL ((RM WINDOW) OBJECT (P L) FIX)
+<ROUTINE WINDOW-ROOM (RM WINDOW "AUX" (P 0))
+	 #DECL ((RM WINDOW) OBJECT (P) FIX)
 	 <COND (<==? .RM ,FRONT-YARD>
 		<COND (<==? .WINDOW ,KITCHEN-WINDOW> ,KITCHEN)
 		      (<==? .WINDOW ,BUTLER-WINDOW> ,BUTLER-ROOM)>)
@@ -1056,7 +1056,7 @@ finding anything on it." CR>)>)>>
 "It's a large and varied record collection. Monica's not very
 choosy about her music." CR>)>>
 
-<ROUTINE I-TUNE-OFF ("AUX" TBL)
+<ROUTINE I-TUNE-OFF ()
 	 <COND (<==? ,HERE ,MONICA-ROOM>
 		<TELL
 "The record is over, and not too soon." CR>

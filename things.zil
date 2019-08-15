@@ -723,7 +723,7 @@ object now.\"" CR>)
 	(SYNONYM SUICIDE)
 	(ACTION GLOBAL-SUICIDE-F)>
 
-<ROUTINE GLOBAL-SUICIDE-F ("AUX" STR)
+<ROUTINE GLOBAL-SUICIDE-F ()
 	 <COND (<AND <VERB? FIND> <NOT <EQUAL? ,WINNER ,PLAYER>>>
 		<TELL "\"She shot herself in the bathtub.\"" CR>)>>
 

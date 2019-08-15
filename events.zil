@@ -850,7 +850,7 @@ for the various characters, using the MOVEMENT-GOALS table."
 	 <LOC .PERSON>>
 
 <ROUTINE FOLLOW-GOAL (PERSON "AUX" (HERE <LOC .PERSON>) LINE LN RM GT GOAL FLG
-		      		   (GOAL-FLAG <>) (IGOAL <>) LOC (CNT 1) DIR)
+		      		   (GOAL-FLAG <>) (IGOAL <>) LOC (CNT 1))
 	 #DECL ((PERSON HERE LOC RM) OBJECT (LN CNT) FIX
 		(GOAL-FLAG IGOAL) <OR ATOM FALSE>)
 	 <SET GT <GET ,GOAL-TABLES <GETP .PERSON ,P?CHARACTER>>>
@@ -1061,8 +1061,8 @@ for the various characters, using the MOVEMENT-GOALS table."
 	 <COND (<==? .VAL ,M-FATAL> .VAL)
 	       (T .FLG)>>
 
-<ROUTINE DIR-FROM (HERE THERE "AUX" (P 0) L TBL O)
-	 #DECL ((HERE THERE O) OBJECT (P L) FIX)
+<ROUTINE DIR-FROM (HERE THERE "AUX" (P 0) L TBL)
+	 #DECL ((HERE THERE) OBJECT (P L) FIX)
  <REPEAT ()
 	 <COND (<0? <SET P <NEXTP .HERE .P>>>
 		<RFALSE>)
