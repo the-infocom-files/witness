@@ -69,7 +69,7 @@ Copyright (c) 1983 Infocom, Inc.  All rights reserved.">
 			<RETURN>)>>)>>
 
 <GLOBAL DEBUG <>>
-<ROUTINE V-DEBUG ("AUX" MSG)
+<ROUTINE V-DEBUG ()
 	 <COND (<SETG DEBUG <NOT ,DEBUG>>
 		<TELL "Find them bugs, boss!" CR>)
 	       (T <TELL "No bugs left, eh?" CR>)>>
@@ -164,8 +164,8 @@ people won't be described, only the name of the place you are entering.)" CR>>
 	 <TELL N .HR " ">
 	 <TELL <COND (.AM "a.m.") (T "p.m.")>>>
 
-<ROUTINE V-QUIT ("OPTIONAL" (ASK? T) "AUX" SCOR)
-	 #DECL ((ASK?) <OR ATOM <PRIMTYPE LIST>> (SCOR) FIX)
+<ROUTINE V-QUIT ("OPTIONAL" (ASK? T))
+	 #DECL ((ASK?) <OR ATOM <PRIMTYPE LIST>>)
 	 <COND (<OR <AND .ASK?
 			 <TELL
 "(If you want to continue from this point at another time, you must
@@ -372,7 +372,7 @@ waiting car, where, forlorn and disgusted, you think about being sent up
 for life. \"Maybe,\" you think, \"I shouldn't have done that.\"" CR>
 	 <CASE-OVER>>
 
-<ROUTINE GOTO (RM "OPTIONAL" (V? T) "AUX" F WT)
+<ROUTINE GOTO (RM "OPTIONAL" (V? T))
 	 #DECL ((RM) OBJECT)
 	<WHERE-UPDATE ,PLAYER>
 	<MOVE ,PLAYER .RM>
@@ -1477,8 +1477,8 @@ Conduct specifically prohibits kissing potential suspects or witnesses." CR>)
 		       <TELL "You can't see anything interesting." CR>)>
 		<SETG HERE .OHERE>)>>
 
-<ROUTINE SEE-INTO? (THERE "AUX" P L TBL O)
-	 #DECL ((THERE O) OBJECT (P L) FIX)
+<ROUTINE SEE-INTO? (THERE "AUX" P L TBL)
+	 #DECL ((THERE) OBJECT (P L) FIX)
 	 <SET P 0>
 	 <REPEAT ()
 		 <COND (<0? <SET P <NEXTP ,HERE .P>>>
@@ -1687,7 +1687,7 @@ come to your unhealthy mind, forbids it." CR>)
 <ROUTINE V-RUB-OVER ()
 	 <TELL "You really can't expect that to help." CR>>
 
-<ROUTINE V-SAY ("AUX" V)
+<ROUTINE V-SAY ()
 	 <SETG QUOTE-FLAG <>>
 	 <SETG P-CONT <>>
 	 <TELL
@@ -2092,7 +2092,7 @@ running! You try it again, just to make sure. Bravo!" CR>)
 	 <COND (<NOT .INT> <V-TIME>)>
 	 .RESULT>
 
-<ROUTINE INT-WAIT (N "AUX" TIM REQ VAL)
+<ROUTINE INT-WAIT (N "AUX" TIM REQ)
 	 <SET TIM ,PRESENT-TIME>
 	 <COND (<==? ,M-FATAL <V-WAIT <SET REQ <RANDOM <* .N 2>>> <> T>>
 		<RFATAL>)
