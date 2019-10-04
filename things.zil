@@ -455,7 +455,7 @@ cabinet.")
 	       <MOVE ,DRINK ,PLAYER>
 	       <FSET ,DRINK ,TAKEBIT>
 	       <TELL
-"\"I think we both need one.\"  And so you both have one." CR>)>)
+"\"I think we both need one.\" And so you both have one." CR>)>)
        (<OR <VERB? DRINK>
 	    <AND <VERB? OPEN> <DOBJ? SCOTCH BOURBON>>>
 	<COND (,DRUNK-FLAG <NO-DRINK> <RTRUE>)
