@@ -2,6 +2,8 @@
 
 ## The Game
 
+The Witness is a 1983 interactive fiction game written by Stu Galley and published by Infocom.
+
 The following sources provide further information on The Witness:
 
 * [Wikipedia](https://en.wikipedia.org/wiki/The_Witness_(1983_video_game))
