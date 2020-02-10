@@ -20,6 +20,8 @@ The following sources provide further information on The Witness:
 
 ## Version History
 
+Zarf's Obsessively Complete Infocom Catalog holds copies of the game files for every existing version of Suspended listed in the Infocom Fact Sheet. It also holds the source files for version 23/840925.
+
 | Release | Serial | Story File                | Zarf Sources      | Historical Sources |
 | -------:|:------:|:-------------------------:|:-----------------:|:------------------:|
 |      13 | 830524 |  [witness-r13-s830524.z3] |                 - |                  - |
