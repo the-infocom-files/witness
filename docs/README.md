@@ -1,10 +1,8 @@
-*This page is currently under construction. Last updated July 2, 2019 by Alex Proudfoot.*
+# The Witness
 
-----
+## The Game
 
-The Witness was Infocom's 7th IF game and was first released in 1983.
-
-Further information on The Witness:
+The following sources provide further information on The Witness:
 
 * [Wikipedia](https://en.wikipedia.org/wiki/The_Witness_(1983_video_game))
 * [The Digital Antiquarian](https://www.filfre.net/2013/03/the-witness/)
@@ -12,16 +10,39 @@ Further information on The Witness:
 * [The Infocom Gallery](http://gallery.guetech.org/witness/witness.html)
 * [IFWiki](http://www.ifwiki.org/index.php/Infocom_games)
 
-The following source material is available for importation. Release 23 was selected from the Zarf Sources.
+## Resources
 
-## Historical Releases
+* [The Witness on The Obsessively Complete Infocom Catalog](https://eblong.com/infocom/#witness)
+* [The Witness on Historical Source (GitHub)](https://github.com/historicalsource/witness)
+* [Infocom Fact Sheet](http://pdd.if-legends.org/infocom/fact-sheet.txt)
 
-These contain the available source material.
+## Version History
 
-| Release | Serial | Story File        | Zarf Sources | Jason Scott Sources |
-| -------:|:------:|:-----------------:|:------------:|:-------------------:|
-|      23 | 840925 |  [r23-s840925-z3] |    [r23-zip] |   [original-source] |
+| Release | Serial | Story File                | Zarf Sources      | Historical Sources |
+| -------:|:------:|:-------------------------:|:-----------------:|:------------------:|
+|      13 | 830524 |  [witness-r13-s830524.z3] |                 - |                  - |
+|      18 | 830910 |  [witness-r18-s830910.z3] |                 - |                  - |
+|      20 | 831119 |  [witness-r20-s831119.z3] |                 - |                  - |
+|      21 | 831208 |  [witness-r21-s831208.z3] |                 - |                  - |
+|      22 | 840924 |  [witness-r22-s840924.z3] |                 - |                  - |
+|      23 | 840925 |  [witness-r23-s840925.z3] | [witness-r23.zip] |  [original source] |
 
-[r23-s840925-z3]: https://eblong.com/infocom/gamefiles/witness-r23-s840925.z3
-[r23-zip]: https://eblong.com/infocom/sources/witness-r23.zip
-[original-source]: https://github.com/historicalsource/witness/tree/7b97e4ee03576730314c9b344fb9ff54a32c4aad
+[witness-r13-s830524.z3]: https://eblong.com/infocom/gamefiles/witness-r13-s830524.z3
+
+[witness-r18-s830910.z3]: https://eblong.com/infocom/gamefiles/witness-r18-s830910.z3
+
+[witness-r20-s831119.z3]: https://eblong.com/infocom/gamefiles/witness-r20-s831119.z3
+
+[witness-r21-s831208.z3]: https://eblong.com/infocom/gamefiles/witness-r21-s831208.z3
+
+[witness-r22-s840924.z3]: https://eblong.com/infocom/gamefiles/witness-r22-s840924.z3
+
+[witness-r23-s840925.z3]: https://eblong.com/infocom/gamefiles/witness-r23-s840925.z3
+[witness-r23.zip]: https://eblong.com/infocom/sources/witness-r23.zip
+[original source]: https://github.com/historicalsource/witness/tree/7b97e4ee03576730314c9b344fb9ff54a32c4aad
+
+## Future development
+
+Version 23/840925 has been selected as the starting point for future development.
+
+Compilation issues are recorded [here](https://github.com/the-infocom-files/witness/issues/2).
