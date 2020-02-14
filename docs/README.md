@@ -20,16 +20,14 @@ The following sources provide further information on The Witness:
 
 ## Version History
 
-Zarf's Obsessively Complete Infocom Catalog holds copies of the game files for every existing version of Suspended listed in the Infocom Fact Sheet. It also holds the source files for version 23/840925.
-
-| Release | Serial | Story File                | Zarf Sources      | Historical Sources |
-| -------:|:------:|:-------------------------:|:-----------------:|:------------------:|
-|      13 | 830524 |  [witness-r13-s830524.z3] |                 - |                  - |
-|      18 | 830910 |  [witness-r18-s830910.z3] |                 - |                  - |
-|      20 | 831119 |  [witness-r20-s831119.z3] |                 - |                  - |
-|      21 | 831208 |  [witness-r21-s831208.z3] |                 - |                  - |
-|      22 | 840924 |  [witness-r22-s840924.z3] |                 - |                  - |
-|      23 | 840925 |  [witness-r23-s840925.z3] | [witness-r23.zip] |  [original source] |
+| Release | Serial | Type | Story File                | Obsessive Sources | Historical Sources |
+| -------:|:------:|:----:|:-------------------------:|:-----------------:|:------------------:|
+|      13 | 830524 |  PUB |  [witness-r13-s830524.z3] |                 - |                  - |
+|      18 | 830910 |  PUB |  [witness-r18-s830910.z3] |                 - |                  - |
+|      20 | 831119 |  PUB |  [witness-r20-s831119.z3] |                 - |                  - |
+|      21 | 831208 |  PUB |  [witness-r21-s831208.z3] |                 - |                  - |
+|      22 | 840924 |  PUB |  [witness-r22-s840924.z3] |                 - |                  - |
+|      23 | 840925 |  FIN |  [witness-r23-s840925.z3] | [witness-r23.zip] |  [original source] |
 
 [witness-r13-s830524.z3]: https://eblong.com/infocom/gamefiles/witness-r13-s830524.z3
 
