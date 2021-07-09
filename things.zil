@@ -455,7 +455,7 @@ cabinet.")
 	       <MOVE ,DRINK ,PLAYER>
 	       <FSET ,DRINK ,TAKEBIT>
 	       <TELL
-"\"I think we both need one.\"  And so you both have one." CR>)>)
+"\"I think we both need one.\" And so you both have one." CR>)>)
        (<OR <VERB? DRINK>
 	    <AND <VERB? OPEN> <DOBJ? SCOTCH BOURBON>>>
 	<COND (,DRUNK-FLAG <NO-DRINK> <RTRUE>)
@@ -513,7 +513,7 @@ again." CR>)
 "The note is written in a spidery hand on fine rag paper. It says:|
 \"Linder --|
 Since Virginia died, I've lost too much sleep because of you and
-your harrassments. The time has come to put this matter to rest
+your harassments. The time has come to put this matter to rest
 once and for all. I'll be seeing you sooner than you imagine.|
               -- Stiles\"")>
 
